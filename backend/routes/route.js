@@ -8,7 +8,7 @@ const { sclassCreate, sclassList, deleteSclass, deleteSclasses, getSclassDetail,
 const { complainCreate, complainList } = require('../controllers/complain-controller.js');
 const { noticeCreate, noticeList, deleteNotices, deleteNotice, updateNotice } = require('../controllers/notice-controller.js');
 const {
-    studentRegister,
+    studentRegister,  //gfndgdf
     studentLogIn,
     getStudents,
     getStudentDetail,
