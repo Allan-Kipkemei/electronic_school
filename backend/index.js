@@ -16,7 +16,7 @@ app.use(bodyParser.json({ limit: '10mb', extended: true }))
 app.use(express.json({ limit: '10mb' }))
 app.use(cors({
 
-    origin: 'https://electronic-school-5k2n68sgc-allan-kipkemei.vercel.app/',
+    origin: 'http://localhost:3000',
   optionsSuccessStatus: 200
 }))
 
